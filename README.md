@@ -1,6 +1,6 @@
-# ipfs-css
+# openbazaar-css
 
-The single-purpose css class names and @font-face config to IPFS up your UI.
+The single-purpose css class names and @font-face config to OpenBazaar up your UI.
 
 ```css
 /* ---- font ----- */
@@ -21,21 +21,21 @@ Pairs well with [tachyons].
 
 ## Install
 
-Add `ipfs-css` to your project via npm
+Add `openbazaar-css` to your project via npm
 
 ```sh
-npm install ipfs-css
+npm install openbazaar-css
 ```
 
 ## Usage
 
-Once you've installed ipfs-css from npm, the css file and the web-fonts are available from your `node_modules/ipfs-css` directory.
+Once you've installed openbazaar-css from npm, the css file and the web-fonts are available from your `node_modules/openbazaar-css` directory.
 
 If you are set up with a build process that let's you import css files directly from `node_modules`, then you can just add the following to your css file.
 
 ```css
 @import 'tachyons'; /* Optional, jolly good tho */
-@import 'ipfs-css';
+@import 'openbazaar-css';
 ```
 
 The file includes font-face definitions and single purpose css class names that you can compose freely, to create your lovely UI.
@@ -56,7 +56,7 @@ All **the css atoms are generated** from that, so you can be sure you're using t
 
 ### Less
 
-`ipfs.css` is regular css file, so you can import it normally. Each declaration has a single-purpose so if you prefer to compose your rules outside the dom, you can safely use them as mixins:
+`openbazaar.css` is regular css file, so you can import it normally. Each declaration has a single-purpose so if you prefer to compose your rules outside the dom, you can safely use them as mixins:
 
 ```less
 .my-lovely-widget {
